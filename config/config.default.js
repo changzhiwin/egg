@@ -255,7 +255,7 @@ module.exports = appInfo => {
     encoding: 'utf8',
     env: appInfo.env,
     level: 'INFO',
-    consoleLevel: 'INFO',
+    consoleLevel: 'WARN',
     disableConsoleAfterReady: appInfo.env !== 'local' && appInfo.env !== 'unittest',
     outputJSON: false,
     buffer: true,

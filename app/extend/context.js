@@ -215,6 +215,7 @@ const proto = module.exports = {
     this._runInBackground(scope);
   },
 
+  // 2020-10-26 11:35:16，不明白是做什么用的
   // let plugins or frameworks to reuse _runInBackground in some cases.
   // e.g.: https://github.com/eggjs/egg-mock/pull/78
   _runInBackground(scope) {
